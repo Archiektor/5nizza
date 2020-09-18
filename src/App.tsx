@@ -7,6 +7,11 @@ const App = () => {
             <header className={s.header}>
 
             </header>
+            <div>
+                <section>
+                    Main Section
+                </section>
+            </div>
         </div>
     );
 }
