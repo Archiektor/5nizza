@@ -1,14 +1,14 @@
 import React from 'react';
 import s from './App.module.scss';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
+const App = () => {
+    return (
+        <div className={s.wrapper}>
+            <header className={s.header}>
 
-      </header>
-    </div>
-  );
+            </header>
+        </div>
+    );
 }
 
 export default App;
